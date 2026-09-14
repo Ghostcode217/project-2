@@ -3,7 +3,7 @@ const promptInput = document.getElementById('promptInput');
 const output = document.getElementById('output');
 
 // Replace with your actual Gemini API Key (obtainable from Google AI Studio)
-const API_KEY = "AQ.Ab8RN6Lk5g6KBm8-32v4F-xcWpmApw7CTmATV6YCALbZAV7OaQ"; 
+const API_KEY = "Gemini API Key"; 
 
 generateBtn.addEventListener('click', async () => {
     const userPrompt = promptInput.value.trim();
